@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>抽签程序</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #drawn-name {
+            font-size: 40px;
+        }
+
+        .main-container {
+            padding: 20px;
+            width: 60%;
+            margin: 20px auto;
+            background-color: rgba(255, 0, 0, 0.5);
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(0, 255, 21, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <h2>真心话</h2>
+        <h1>若本人抽到相同问题再抽一次</h1>
+        <div class="main-container">
+            <button id="draw-button">
+                <h1>抽一个真心话</h1>
+            </button>
+        </div>
+        <div class="main-container">
+            <div id="drawn-name">
+
+                <!-- 抽中的名字将显示在这里 -->
+
+            </div>
+        </div>
+
+        <script src="真心话.js"></script>
+    </div>
+    <div class="main-container">
+        <button id="draw-button">
+            <a href="index.html">
+                <h1>返回抽签</h1>
+            </a>
+        </button>
+        <button id="draw-button">
+            <a href="大冒险.html">
+                <h1>返回大冒险</h1>
+            </a>
+        </button>
+    </div>
+</body>
+
+</html>
