@@ -1,18 +1,20 @@
-# Web 真心话大冒险 🎲
+# Web Truth or Dare 🎲
 
 ![GitHub stars](https://img.shields.io/github/stars/TsangHaotian/Web_Truth_or_dare?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/TsangHaotian/Web_Truth_or_dare?style=social)
 
-一个基于 Web 的多人互动真心话大冒险游戏，支持自定义题库与实时游戏状态管理
+A multiplayer web-based Truth or Dare game featuring custom question banks and real-time state management.
 
-## 🎯 核心功能
+## Quick Experience
 
-### 游戏模式
-- 经典模式（随机抽取题目）
-- 自定义模式（导入本地题库）
+## 🎯 Core Features
 
+### Game Modes
+- **Classic Mode**: Randomly draw questions.
+- **Custom Mode**: Import your own local question bank.
 
-## 🚀 快速开始
+## 🚀 Quick Start
 ```bash
-# 克隆仓库
+# Clone the repository
 git clone https://github.com/TsangHaotian/Web_Truth_or_dare.git
+```
